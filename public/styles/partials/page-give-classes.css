@@ -45,7 +45,6 @@
 }
 
 #page-give-classes fieldset legend button:hover {
-    
     color: var(--color-primary-dark);
 }
 
@@ -110,7 +109,7 @@
     margin-top: 3.2rem;
     padding-top: 3.2rem;
 
-    border-top: 1px solid var(--color-line-white)
+    border-top: 1px solid var(--color-line-in-white);
 }
 
 @media (min-width: 700px) {
