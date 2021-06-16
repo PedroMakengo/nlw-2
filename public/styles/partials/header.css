@@ -40,6 +40,10 @@
     color: var(--color-title-in-primary);
 }
 
+.page-header .header-content p {
+    color: var(--color-title-in-primary)
+}
+
 
 @media(min-width: 700px) {
     #page-study #container {

@@ -6,11 +6,20 @@ const addItem = document.querySelector("#add-time")
 // Executar 
 function cloneField() {
     // Duplicar os campos 
-    const fields = document.querySelector(".schedule-item") 
+    const newFieldContainer = document.querySelector(".schedule-item") 
         .cloneNode(true)
+
+    // Pegar os campos, que campos ?
+    const fields = newFieldContainer.querySelectorAll("input") 
+   
+    // Limpar os campos 
+    fields.forEach((field) => {
+        field.value = ""
+    })
+
     // Colocar na página 
     document.querySelector("#schedule-items")
         // appendChild adicionar
-        .appendChild(fields)
+        .appendChild(newFieldContainer)
 }
     

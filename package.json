@@ -1,0 +1,24 @@
+{
+  "name": "nlw-2",
+  "version": "1.0.0",
+  "description": "npm install sqlite3",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroMakengo/nlw-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroMakengo/nlw-2/issues"
+  },
+  "homepage": "https://github.com/PedroMakengo/nlw-2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
