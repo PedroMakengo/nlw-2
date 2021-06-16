@@ -37,6 +37,16 @@ const subjects = [
     "Química"
 ]
 
+const weekdays = [
+    "Domingo",
+    "Segunda-feira",
+    "Terça-feira",
+    "Quarta-feira",
+    "Quinta-feira",
+    "Sexta-feira",
+    "Sábado"
+]
+
 // Iniciando a biblioteca
 const express = require('express')
 const server = express()
